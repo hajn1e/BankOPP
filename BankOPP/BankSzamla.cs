@@ -31,7 +31,7 @@ namespace BankOPP
 			if (osszeg > 0)
 			{
 				Egyenleg += osszeg;
-				Console.WriteLine(($"{osszeg} HUF befizetve a(z) {SzamlaSzam} számlára");
+				Console.WriteLine($"{osszeg} HUF befizetve a(z) {SzamlaSzam} számlára");
 			} else
 			{
                 Console.WriteLine("Hibás összeg, nem lehet negatív vagy nulla.");
